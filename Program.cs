@@ -30,7 +30,7 @@ namespace GuessingNumber
 
                     while (!int.TryParse(Console.ReadLine(), out userInput) || userInput < 1 || userInput > 20)
                     {
-                        Console.WriteLine("Invalid input. Please enter a number between 1 and 20:");
+                        Console.WriteLine("Invalid input. Please enter a number between 1 and 10:");
                     }
 
                     if (userInput == randomNumber)
