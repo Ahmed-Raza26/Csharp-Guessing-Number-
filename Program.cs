@@ -25,10 +25,10 @@ namespace GuessingNumber
 
                 while (attempts > 0)
                 {
-                    Console.WriteLine("Guess the number between 1 and 20:");
+                    Console.WriteLine("Guess the number between 1 and 10:");
                     int userInput;
 
-                    while (!int.TryParse(Console.ReadLine(), out userInput) || userInput < 1 || userInput > 20)
+                    while (!int.TryParse(Console.ReadLine(), out userInput) || userInput < 1 || userInput > 10)
                     {
                         Console.WriteLine("Invalid input. Please enter a number between 1 and 10:");
                     }
